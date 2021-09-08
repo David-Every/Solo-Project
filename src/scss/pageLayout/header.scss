@@ -1,0 +1,31 @@
+header{
+    background-color: $primary;
+}
+#company{
+    margin-top:15px;
+    margin-right:50px;
+    padding-left: 55px;
+    color:$secondary;
+    h1{
+        margin-bottom: 10px;
+        text-decoration: underline;
+    }
+    h2{
+        font-size: 18px;
+        // padding-top:10px;
+        // border-top: .5px solid $secondary;
+    }
+}
+#headerContainer{
+    width:1200px;
+    margin: 0 auto;
+    display: flex;
+    a{
+        padding:25px;
+        color:rgba(255,255,255,.75);
+        text-decoration: none;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}

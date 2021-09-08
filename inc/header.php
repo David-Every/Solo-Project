@@ -12,18 +12,15 @@
 
 <body> 
     <header>
-        <div> 
+        <div id = "headerContainer"> 
             <div id ="company">
                 <h1>Sharon Wray</h1>
                 <h2>Accountancy Services</h2>
             </div>
-            <ul>
-                <li><a href ="#">My Services</a></li>
-                <li><a href ="#">Switch Accountants</a></li>
-                <li><a href ="#">FAQ's</a></li>
-                <li><a href ="#">Contact US</a></li>
-                <li><a href ="#">01953 687077</a></li>
-            </ul>
+                <a href ="#">My Services</a>
+                <a href ="#">Switch Accountants</a>
+                <a href ="#">FAQ's</a>
+                <a href ="#">Contact US</a>
+                <a href ="#">01953 687077</a>
         </div>
     </header>
-</body>

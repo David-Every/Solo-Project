@@ -8,7 +8,35 @@
                 "street":"silver Street",
                 "town": "besthorpe",
                 "county":"norfolk,NR17 2NY",
-                "tel": "01953 or 07894 067905"
+                "tel": "01953 687077",
+                "mobile": "07894 067905"
+            }
+        ],
+        "section":
+        [
+            {
+                "section":"My services",
+                "link":"#"
+            },
+            {
+                "section":"Switch Accountants",
+                "link":"#"
+            },
+            {
+                "section":"FAQ's",
+                "link":"#"
+            },
+            {
+                "section":"contact us",
+                "link":"#"
+            },
+            {
+                "section":"privacy policy",
+                "link":"#"
+            },
+            {
+                "section":"Terms &amp conditions",
+                "link":"#"
             }
         ]
     }
