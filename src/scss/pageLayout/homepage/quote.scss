@@ -1,0 +1,22 @@
+
+.quote{
+    display: flex;
+    padding:50px;
+    font-size: 1.45em;
+    width: 85%;
+    margin:0 auto;
+    color:$textBody;
+    &::before{
+        content: "Thing";
+        margin-right:15px;
+    }
+    &::after{
+        content: "Thingy";
+    }
+}
+
+@media(min-width:$break-xl){
+    .quote{
+        width:1200px;
+    }
+}

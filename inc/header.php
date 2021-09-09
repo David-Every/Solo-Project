@@ -8,6 +8,7 @@
 </head>
 <?php
     $company = "sharon wray Accountancy Services";
+    $json = json_decode(file_get_contents("data/details.json"));   
 ?>
 
 <body> 
@@ -17,10 +18,22 @@
                 <h1>Sharon Wray</h1>
                 <h2>Accountancy Services</h2>
             </div>
-                <a href ="#">My Services</a>
-                <a href ="#">Switch Accountants</a>
-                <a href ="#">FAQ's</a>
-                <a href ="#">Contact US</a>
-                <a href ="#">01953 687077</a>
+            <?php
+            $i = 0;
+            foreach($json->collection->section as $line){
+                if($i < 4){
+                    $i++;
+                    echo '<a href ="'. $line->link.'">'.$line->section .'</a>';
+                }else{
+                    break;
+                }
+            }
+            foreach($json->collection->address as $line){
+                $tel = '<a id ="phoneNum" href="tel:'. $line->tel .'">'. $line->tel .'</a>';
+                $mob = '<a id ="phoneNum" href="tel:'. $line->mobile .'">'. $line->mobile .'</a>'; 
+                echo $tel;
+            }
+
+            ?>
         </div>
     </header>

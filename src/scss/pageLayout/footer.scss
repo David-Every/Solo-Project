@@ -60,6 +60,32 @@ footer{
 
 //||FOOTER MEDIA QUERIES||\\
 
+@media(min-width:$break-m){
+    #footerInfo{
+        display: flex;
+        width:800px;
+        margin:0 auto;
+    }
+    #sectOne, #sectTwo, #sectThree{
+        width:24%;
+        height:250px;
+        padding-top:25px;
+    }
+}
+
+@media(min-width:$break-lg){
+    #footerInfo{
+        display: flex;
+        width:900px;
+        margin:0 auto;
+    }
+    #sectOne, #sectTwo, #sectThree{
+        width:24%;
+        height:250px;
+        padding-top:25px;
+    }
+}
+
 @media(min-width:$break-xl){
     #footerInfo{
         display: flex;

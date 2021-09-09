@@ -1,0 +1,61 @@
+#freeConsult{
+    background-color: $primary;
+    color:$secondary;
+    padding:25px;
+    font-size: 1.125em;
+    font-weight: 400;
+    span{
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+    
+    a{
+    color:$secondary;
+    text-decoration: none;
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    p{
+        width:80%;
+        margin:0 auto;
+    }
+    input[type="button"]{
+        border-radius: 2px;
+        border: .5px solid transparent;
+        padding: 15px 25px;
+        background-color: $secondary;
+        color:$primary;
+        font-size: 1.25em;
+        font-weight: 600;
+        &:hover{
+            //Make this fade in
+            cursor: pointer;
+            background-color: lighten($primary, 10%);
+            border: .5px solid $secondary;
+            border-radius: 5px;
+            color:$secondary;
+        }
+    }
+}
+
+@media(min-width:$break-m){
+    .consultContent{
+        width:800px;
+        display: flex;
+        margin:0 auto;
+    }
+}
+
+
+
+@media(min-width:$break-xl){
+    .consultContent{
+        width:1200px;
+        display: flex;
+        .info{
+            width:30%;
+        }
+    }
+}

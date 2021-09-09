@@ -27,7 +27,6 @@
              * WARNING - 
              * will need to edit CSS to allow changes to how the footer looks if adding additional 
              */
-            $json = json_decode(file_get_contents("data/details.json"));
             echo '<ul>';
                 foreach($json->collection->address as $line){
                     echo '<li>' . $line->company .'</li>';
@@ -50,11 +49,7 @@
              * This foreach loop cycles over the section within JSON file and
              * adds the string and the link both of which can be edited shrunk or expanded.
              */
-            echo '<ul>';
-                foreach($json->collection->section as $line){
-                    echo '<li><a href ="'. $line->link.'">'.$line->section .'</a></li>';
-                }
-            echo '<ul>';
+            include 'sectionLinks.php';
             ?>
         </div>
     </div>

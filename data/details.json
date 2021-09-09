@@ -38,6 +38,13 @@
                 "section":"Terms &amp conditions",
                 "link":"#"
             }
+        ],
+        "welcome":
+        [
+            {"paragraph":"i am an AAT licenced accountant with over 15 years of accountancy experience and my aim is to make your life easier so that you can focus on growth and success."},
+            {"paragraph":"whether you are a small business with employees, sole trader or an individule, my services range from bookkeeping to full accounts production, payroll, VAT and tax."},
+            {"paragraph":"So if you are looking for a friendly, professional and affordable service please contact me for a free consultation to discuss your needs."},
+            {"paragraph":"A fixed fee or payment plans are available so that you are able to plan for the future without hidden costs."}
         ]
     }
 }
