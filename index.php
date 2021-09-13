@@ -3,6 +3,7 @@
     //TODO Move this variable to be accessable everywhere, but can be maintained in one place
     $year = 2021;
     include "inc/header.php";
+    include "inc/mobileSideMenu.php";
 ?>
 <div id ="topImg">
     <img class = "image" src = "img/topImg-shade.jpeg">
@@ -32,16 +33,8 @@
     </div>
 </div>
 
-<div id ="freeConsult">
-    <div class = "consultContent">
-        <p class = "info">
-            Book your <span>free</span> accountancy consultation today by contacting me on <?php echo $mob?> or by email:
-            <a href="mailto:accounts@sharonwray.co.uk ?subject =Free Accountancy Consultation">accounts@sharonwray.co.uk</a>,
-            alternatively fill out my online contact form.
-        </p>
-        <input type ="button" id ="contactButton" name="contact" value ="Contact Us Today">
-    </div>
-</div>
+<?php include "inc/freeConsult.php"; ?>
+
 <div class = "quote">
     <p>
         We have used Sharon Wray Accountantcy for our.... Lorem ipsum dolor 

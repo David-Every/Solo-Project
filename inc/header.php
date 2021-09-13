@@ -39,6 +39,9 @@
                 echo $tel;
             }
 
+            
             ?>
+
         </div>
+
     </header>
