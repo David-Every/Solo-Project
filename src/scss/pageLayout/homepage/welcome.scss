@@ -28,6 +28,49 @@
     }
 }
 
+@media(min-width:$break-m){
+    #welcomeContainer{
+        width:85%;
+        height:auto;
+        display:flex;
+        margin-left:auto;
+        .welcomeInfo{
+            width:45%;
+        }
+        .imgContainer{
+            width:100%;
+            img{
+                width:100%;
+                height:100%;
+            }
+        }
+    }
+}
+
+@media(min-width:$break-lg){
+    #welcomeContainer{
+        width:85%;
+        // height:450px;
+        display:flex;
+        margin-left:auto;
+        .welcomeInfo{
+            width:60%;
+        }
+        .imgContainer{
+            width:60%;
+            img{
+                width:100%;
+                height:100%;
+            }
+        }
+    }
+}
+@media(max-width:$break-lg){
+    .imgContainer{
+        display:none;
+    }
+}
+
 @media(min-width:$break-xl){
     #welcomeContainer{
         width:85%;

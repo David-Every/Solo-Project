@@ -7,11 +7,18 @@
     margin:0 auto;
     color:$textBody;
     &::before{
-        content: "Thing";
+        font-family: "Font Awesome 5 Free";
+        content: "\f10d";
         margin-right:15px;
     }
     &::after{
-        content: "Thingy";
+        font-family: "Font Awesome 5 Free";
+        content: "\f10e";
+    }
+}
+@media(max-width:$break-lg){
+    .quote{
+        display:none;
     }
 }
 

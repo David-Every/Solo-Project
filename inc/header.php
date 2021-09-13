@@ -1,10 +1,13 @@
 <head>
-    <link rel ="stylesheet" href ="dist/style.min.css">
     <title><?php echo $title ?></title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <link rel ="stylesheet" href ="dist/style.min.css">
+
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <?php
     $company = "sharon wray Accountancy Services";
@@ -15,8 +18,10 @@
     <header>
         <div id = "headerContainer"> 
             <div id ="company">
-                <h1>Sharon Wray</h1>
-                <h2>Accountancy Services</h2>
+                <a href = "index.php">
+                    <h1>Sharon Wray</h1>
+                    <h2>Accountancy Services</h2>
+                </a>
             </div>
             <?php
             $i = 0;

@@ -5,7 +5,7 @@
     include "inc/header.php";
 ?>
 <div id ="topImg">
-    <img class = "image" src = "img/topImg.jpeg">
+    <img class = "image" src = "img/topImg-shade.jpeg">
     <div id = "imageOverlayContainer">
         <div class = "overlayText">
             <h1>Fully qualified AAT licenced accountant</h1>

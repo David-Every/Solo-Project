@@ -15,13 +15,10 @@ footer{
 #footerInfo{
     // display:flex;
     .footerImgs{
-        // display: flex;
-    //     flex-wrap: wrap;
         img{
             width:60%;
             height:13%;
         }
-    //     height: 500px;
     margin-bottom: 25px;
     }
     .section{
@@ -41,7 +38,7 @@ footer{
    
 }
 #sectOne,#sectTwo,#sectThree{
-    width:85%;
+    width:95%;
     margin: 0 auto;
     ul{
         padding:0;
@@ -49,6 +46,12 @@ footer{
             list-style:none;
         }
     }
+}
+#sectThree li::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "";
+    padding-right: 10px;
 }
 
 #copyright{

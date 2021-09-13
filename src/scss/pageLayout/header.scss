@@ -12,15 +12,20 @@ header{
         &:hover{
             text-decoration: underline;
         }
-        &:last-of-type::before{
-            content: "@";
-            color:black;
+        &:last-of-type{
+            color:rgba(255,255,255,1);
+
+            // &::before{
+            //     font-family: "Font Awesome 5 Free";
+            //     content: "\f879";
+            //     padding-right: 10px;
+            //     font-weight:solid;
+            // }
         }
     }
 }
 #company{
-    padding-top:15px;
-    margin-right:225px;
+    padding-top:0;
     padding-left: 55px;
     color:$secondary;
     h1{
@@ -34,16 +39,30 @@ header{
     }
 }
 @media(max-width:$break-m){
-    header{
+    #headerContainer{
         display:none;
+        width:800px;
+        #company{
+            margin-right:0;
+        } 
+    }
+}
+@media(min-width:$break-lg){
+    #headerContainer{
+        width:1000px;
+        margin: 0 auto;
+        display: flex;
+        #company{
+            margin-right:0;
+        }
     }
 }
 
 @media(min-width:$break-xl){
     #headerContainer{
         width:1200px;
-        margin: 0 auto;
-        display: flex;
-        
+        #company{
+            margin-right:225px;
+        }
     }
 }

@@ -16,27 +16,27 @@
         [
             {
                 "section":"My services",
-                "link":"#"
+                "link":"myServices.php"
             },
             {
                 "section":"Switch Accountants",
-                "link":"#"
+                "link":"switchAccountants.php"
             },
             {
                 "section":"FAQ's",
-                "link":"#"
+                "link":"FAQ.php"
             },
             {
                 "section":"contact us",
-                "link":"#"
+                "link":"contactUs.php"
             },
             {
                 "section":"privacy policy",
-                "link":"#"
+                "link":"privacyPolicy.php"
             },
             {
                 "section":"Terms &amp conditions",
-                "link":"#"
+                "link":"termsAndConditions.php"
             }
         ],
         "welcome":
@@ -45,6 +45,62 @@
             {"paragraph":"whether you are a small business with employees, sole trader or an individule, my services range from bookkeeping to full accounts production, payroll, VAT and tax."},
             {"paragraph":"So if you are looking for a friendly, professional and affordable service please contact me for a free consultation to discuss your needs."},
             {"paragraph":"A fixed fee or payment plans are available so that you are able to plan for the future without hidden costs."}
+        ],
+        "switch":
+        [
+            {   "title":"Reasons to switch",
+                "paragraph":"Lorem Ipsum"
+            },
+            {
+                "title":"How to switch",
+                "paragraph":"Lorem Ipsum"
+            },
+            {
+                "title":"How to switch",
+                "paragraph":"Lorem Ipsum"
+            }
+        ],
+        "services":
+        [
+            {"paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."},
+            {"paragraph":"consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."},
+            {"paragraph":"magna aliqua. Ut enim ad minim veniam, quis nostrud "},
+            {"paragraph":"consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."}
+        ],
+        "faq":
+        [
+            {
+                "question":"question 1",
+                "answer": "answer 1"
+            },
+            {
+                "question":"question 2",
+                "answer": "answer 2"
+            },
+            {
+                "question":"question 3",
+                "answer": "answer 3"
+            },
+            {
+                "question":"question 4",
+                "answer": "answer 4"
+            },
+            {
+                "question":"question 5",
+                "answer": "answer 5"
+            }
+        ],
+        "termsandconditions":
+        [
+            {"terms":"Lorem Ipsum"},
+            {"terms":"Lorem Ipsum"},
+            {"terms":"Lorem Ipsum"},
+            {"terms":"Lorem Ipsum"},
+            {"terms":"Lorem Ipsum"},
+            {"terms":"Lorem Ipsum"},
+            {"terms":"Lorem Ipsum"},
+            {"terms":"Lorem Ipsum"}
         ]
+        
     }
 }

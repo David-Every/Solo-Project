@@ -7,21 +7,21 @@
     }
 }
 #imageOverlayContainer{
-    text-align: right;
     text-transform: uppercase;
 
     h1{
-        color:$primary;
+        color:$secondary;
         font-size: 3.5em;
         line-height:60px;
         padding-bottom:15px;
-        border-bottom: 2px solid $primary;
+        border-bottom: 2px solid $secondary;
     }
     p{
         margin-top:15px;
         font-size:1.75em;
         font-weight:500;
         line-height: 40px;
+        color:$secondary;
     }
 
     input[type=button]{
@@ -32,6 +32,7 @@
         font-weight: 400;
         &:hover{
             cursor: pointer;
+            font-weight: 500;
         }
         
         &:first-of-type{
@@ -39,7 +40,6 @@
             border-radius: 3px;
             border:2px solid $secondary;
             color:$secondary;
-            margin-right: 15px;
             &:hover{
                 border:2px solid $primary;
                 background-color: lighten($primary,10%);
@@ -54,8 +54,37 @@
                 border:2px solid $secondary;
                 background-color: lighten($secondary,10%);
             }
-
         }
+    }
+}
+
+#imageOverlayContainer{
+    position:absolute;
+    top:3%;
+    width:95%;
+    text-align: center;
+    // right:14%;
+    word-wrap: break-word;
+}
+
+@media(min-width:$break-m){
+    #imageOverlayContainer{
+        text-align: right;
+        position:absolute;
+        top:15%;
+        width:45%;
+        right:14%;
+        input[type=button]:first-of-type{
+            margin-right: 15px;
+        }
+    }
+}
+@media(min-width:$break-lg){
+    #imageOverlayContainer{
+        position:absolute;
+        top:25%;
+        width:55%;
+        right:14%;
     }
 }
 
