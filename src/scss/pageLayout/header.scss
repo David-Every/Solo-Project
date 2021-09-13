@@ -1,7 +1,10 @@
+
+//base header Styling
 header{
     background-color: $primary;
 }
 
+//Styles the placement of links within the header
 #headerContainer{
     width:100%;
     a{
@@ -24,6 +27,8 @@ header{
         }
     }
 }
+
+//Styles the "Logo" section of the header
 #company{
     padding-top:0;
     padding-left: 55px;

@@ -1,9 +1,9 @@
 <?php
-    $title = "Sharon Wray | Accountancy Services";
+    $title = "Sharon Wray | Accountancy Services | Homepage";
     //TODO Move this variable to be accessable everywhere, but can be maintained in one place
-    $year = 2021;
     include "inc/header.php";
     include "inc/mobileSideMenu.php";
+    include "inc/cookie.php";
 ?>
 <div id ="topImg">
     <img class = "image" src = "img/topImg-shade.jpeg">

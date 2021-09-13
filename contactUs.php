@@ -1,8 +1,6 @@
 <?php
 $title = "Sharon Wray | Accountancy Services | Contact Us";
 $siteKey = "6LcdqWMcAAAAABaYBxQgIg_lySSNi1oHh-iSoqAa";
-//TODO Move this variable to be accessable everywhere, but can be maintained in one place
-$year = 2021;
 include "inc/header.php";
 ?>
 <div id = "form">

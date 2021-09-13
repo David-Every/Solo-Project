@@ -1,15 +1,14 @@
 <?php
-$title = "Sharon Wray | Accountancy Services | Privacy Policy ";
-//TODO Move this variable to be accessable everywhere, but can be maintained in one place
-$year = 2021;
+$page = "Privacy Policy";
+$title = 'Sharon Wray | Accountancy Services |'. $page;
 include "inc/header.php";
 ?>
 <div id= "welcomeContainer">
     <div class ="welcomeInfo">
-        <h1>welcome</h1>
+        <h1><?php echo $page?></h1>
         <?php 
-            foreach($json->collection->welcome as $line){
-                echo '<p>'.$line->paragraph.'</p>';
+            foreach($json->collection->privacypolicy as $line){
+                echo '<p>'.$line->policy.'</p>';
             }
         ?>
     </div>

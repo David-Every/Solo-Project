@@ -5,6 +5,8 @@
             <a href="mailto:accounts@sharonwray.co.uk ?subject =Free Accountancy Consultation">accounts@sharonwray.co.uk</a>,
             alternatively fill out my online contact form.
         </p>
-        <input type ="button" id ="contactButton" name="contact" value ="Contact Us Today">
+        <a href ="/contactUs.php">
+            <input type ="button" id ="contactButton" name="contact" value ="Contact Us Today" >
+        </a>
     </div>
 </div>

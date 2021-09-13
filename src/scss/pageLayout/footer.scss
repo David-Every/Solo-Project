@@ -1,3 +1,5 @@
+
+//Base footer styling
 footer{
     background-color: $primary;
     color:$secondary;
@@ -12,8 +14,8 @@ footer{
 
 }
 
+//
 #footerInfo{
-    // display:flex;
     .footerImgs{
         img{
             width:60%;
@@ -37,6 +39,8 @@ footer{
     }
    
 }
+
+//keeps all three footer infomation sections the same width and style
 #sectOne,#sectTwo,#sectThree{
     width:95%;
     margin: 0 auto;
@@ -47,6 +51,7 @@ footer{
         }
     }
 }
+//Adding special Font Awesome Characters before the footer links
 #sectThree li::before{
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
@@ -54,6 +59,7 @@ footer{
     padding-right: 10px;
 }
 
+//styles the copyright section and seperator.
 #copyright{
     border-top: 0.5px solid $secondary;
     padding:15px;

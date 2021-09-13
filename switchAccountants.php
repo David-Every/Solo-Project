@@ -1,12 +1,11 @@
 <?php
-$title = "Sharon Wray | Accountancy Services | Switch Accountants";
-//TODO Move this variable to be accessable everywhere, but can be maintained in one place
-$year = 2021;
+$page ="Switch Accountants";
+$title = 'Sharon Wray | Accountancy Services |'. $page;
 include "inc/header.php";
 ?>
 <div id= "welcomeContainer">
     <div class ="welcomeInfo">
-        <h1>Switch Accountants</h1>
+        <h1><?php echo $page ?></h1>
         <?php 
             foreach($json->collection->switch as $line){
                 echo '<h3>'.$line->title . '</h3>';

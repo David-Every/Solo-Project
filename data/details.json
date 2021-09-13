@@ -100,7 +100,17 @@
             {"terms":"Lorem Ipsum"},
             {"terms":"Lorem Ipsum"},
             {"terms":"Lorem Ipsum"}
+        ],
+        "privacypolicy":
+        [
+            {"policy":"Lorem Ipsum"},
+            {"policy":"Lorem Ipsum"},
+            {"policy":"Lorem Ipsum"},
+            {"policy":"Lorem Ipsum"},
+            {"policy":"Lorem Ipsum"},
+            {"policy":"Lorem Ipsum"}
         ]
+
         
     }
 }

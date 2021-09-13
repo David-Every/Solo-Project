@@ -39,6 +39,7 @@
                 echo $tel;
             }
 
+            $year = date("Y");
             
             ?>
 

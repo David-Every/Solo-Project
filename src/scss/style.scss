@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-@import 
+@import
+//imports primary page structure scss 
 'structure/colours.scss',
 'structure/mediaQueries',
+
+//imports page layout
 'pageLayout/header.scss',
 'pageLayout/footer.scss',
 'pageLayout/pagetop',
 'pageLayout/menu.scss',
+'pageLayout/cookiePopUp.scss',
 'pageLayout/homepage/welcome.scss',
 'pageLayout/homepage/consultation.scss',
 'pageLayout/homepage/quote.scss',

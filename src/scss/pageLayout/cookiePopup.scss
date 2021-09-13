@@ -1,0 +1,81 @@
+//Sites overlay that darkens site under cookie.
+
+#site-overlay-pop{
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+//Cookie Design and placement 
+
+#cookieWrapper{
+    .cookiePopUp{
+        width:30%;
+        height: auto;
+        padding:50px;
+        background-color: lightgrey;
+        border:2px solid black;
+        border-radius: 15px;
+        position:fixed;
+        top:10%;
+        margin:0 auto;
+        z-index: 100;
+        left:35%;
+        color:$primary;
+        h3{
+            font-size: 1.75em;
+            margin-bottom:25px;
+            padding-bottom: 25px;
+            border-bottom: 2px solid $primary;
+        }
+        p{
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+
+        //Button organisation and Styling 
+        //TODO move into a Mixin as this is used elsewhere.
+        .cookieButtons{
+            display: flex;
+            text-align: center;
+            width:75%;
+            margin:0 auto;
+            text-transform: capitalize;
+            p{
+                width:35%;
+                padding:15px;
+                border-radius: 5px;
+                
+                &:first-of-type{
+                    background-color: $primary;
+                    border: 2px solid $secondary;
+                    color:$secondary;
+                    margin-right:15px;
+                    &:hover{
+                        cursor: pointer;
+                        background-color: lighten($primary,10%);
+                        border: 2px solid $primary;
+                        color:$secondary;
+                        font-weight: 500;
+                    }
+                }
+                &:last-of-type{
+                    background-color: $secondary;
+                    border: 2px solid $primary;
+                    &:hover{
+                        cursor: pointer;
+                        border: 2px solid $secondary;
+                        font-weight: 500;
+                    }
+                }
+            }
+            
+        }
+    }
+}
+

@@ -58,4 +58,5 @@
 
 
 </footer>
+<script src="src/JS/app.js"></script> 
 </body>
