@@ -4,7 +4,7 @@
         <div id ="sectOne"class = "section">
             <div class = "footerImgs">
                 <img src = "img/unnamed.png">
-                <img src = "img/img2.jpg">
+                <img src = "img/xero-certified.png">
             </div>
 
             <p>

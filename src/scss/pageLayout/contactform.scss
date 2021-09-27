@@ -1,9 +1,22 @@
 
 // design for the contact form
-#contactForm{
-    width:60%;
-    height: 500px;
-    margin:92px auto;
-    background-color: azure;
-    border: 2px solid $primary;
+
+@media(min-width:$break-xl){
+    #contactForm{
+        width:60%;
+        height: 500px;
+        margin:92px auto;
+        background-color: azure;
+        border: 2px solid $primary;
+
+        #mainForm{
+            // width:50%;
+            input[name="Name"]{
+                width: 90%;
+                padding:10px;
+            }
+        }
+        
+    }
 }
+

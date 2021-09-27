@@ -1,6 +1,5 @@
 <?php
     $title = "Sharon Wray | Accountancy Services | Homepage";
-    //TODO Move this variable to be accessable everywhere, but can be maintained in one place
     include "inc/header.php";
     include "inc/mobileSideMenu.php";
     include "inc/cookie.php";
@@ -13,8 +12,8 @@
             <p>Proffessional and affordable service, contact us today for a free consultation</p>
         </div>
         <div class = "overlayButtons">
-            <input type ="button"  name="services" value="See our services"/>
-            <input type ="button"  name="contact" value="Contact us today"/>
+            <a href = "myServices.php"><input type ="button"  name="services" value="See our services"/></a>
+            <a href =""><input type ="button"  name="contact" value="Contact us today"/></a>
         </div>
     </div>
 </div>

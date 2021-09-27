@@ -64,7 +64,7 @@
 
 #imageOverlayContainer{
     position:absolute;
-    top:3%;
+    top:103%;
     width:95%;
     text-align: center;
     // right:14%;
@@ -75,7 +75,7 @@
     #imageOverlayContainer{
         text-align: right;
         position:absolute;
-        top:15%;
+        top:20%;
         width:45%;
         right:14%;
         input[type=button]:first-of-type{
@@ -95,7 +95,7 @@
 @media(min-width:$break-xl){
     #imageOverlayContainer{
         position:absolute;
-        top:15%;
+        top:25%;
         width:35%;
         right:14%;
     }
